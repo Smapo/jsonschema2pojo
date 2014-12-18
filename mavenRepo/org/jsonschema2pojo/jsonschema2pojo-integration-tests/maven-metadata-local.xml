@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jsonschema2pojo</groupId>
+  <artifactId>jsonschema2pojo-integration-tests</artifactId>
+  <versioning>
+    <versions>
+      <version>0.4.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20141218080119</lastUpdated>
+  </versioning>
+</metadata>
