@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.jsonschema2pojo</groupId>
+  <artifactId>jsonschema2pojo-cli</artifactId>
+  <version>0.4.1-Android-Parcelable-Support-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20141220.114012</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20141220114012</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.4.1-Android-Parcelable-Support-20141220.114012-1</value>
+        <updated>20141220114012</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.4.1-Android-Parcelable-Support-20141220.114012-1</value>
+        <updated>20141220114012</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>sh</extension>
+        <value>0.4.1-Android-Parcelable-Support-20141220.114012-1</value>
+        <updated>20141220114012</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>bat</extension>
+        <value>0.4.1-Android-Parcelable-Support-20141220.114012-1</value>
+        <updated>20141220114012</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
