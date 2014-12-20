@@ -10,12 +10,20 @@
 
     <groupId>org.jsonschema2pojo</groupId>
     <artifactId>jsonschema2pojo</artifactId>
-    <version>0.4.1-SNAPSHOT</version>
+    <version>0.4.1-Android-Parcelable-Support-SNAPSHOT</version>
 
     <packaging>pom</packaging>
     <name>jsonschema2pojo</name>
     <description>Generate DTO style Java classes from JSON Schema documents</description>
     <url>https://github.com/joelittlejohn/jsonschema2pojo</url>
+
+    <distributionManagement>
+      <repository>
+        <id>jsonschema2pojo</id>
+        <name>GitHub ${project.parent.artifactId} Repository</name>
+        <url>https://raw.github.com/Smapo/${project.artifactId}/mvn-repo</url>
+      </repository>
+    </distributionManagement>
 
     <modules>
         <module>jsonschema2pojo-ant</module>
@@ -36,9 +44,9 @@
     </developers>
 
     <scm>
-        <url>https://github.com/joelittlejohn/jsonschema2pojo</url>
-        <connection>scm:git:git@github.com:joelittlejohn/jsonschema2pojo.git</connection>
-        <developerConnection>scm:git:git@github.com:joelittlejohn/jsonschema2pojo.git</developerConnection>
+        <url>https://github.com/Smapo/jsonschema2pojo</url>
+        <connection>scm:git:git@github.com:Smapo/jsonschema2pojo.git</connection>
+        <developerConnection>scm:git:git@github.com:Smapo/jsonschema2pojo.git</developerConnection>
     </scm>
 
     <licenses>
@@ -53,6 +61,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <gradle.version>1.6</gradle.version>
         <gson.version>2.2.4</gson.version>
+        <github.global.server>github</github.global.server>
     </properties>
     
     <build>
@@ -102,6 +111,35 @@
                     <!-- http://jira.codehaus.org/browse/MGPG-9 -->
                     <mavenExecutorId>forked-path</mavenExecutorId>
                 </configuration>
+            </plugin>
+            <plugin>
+              <artifactId>maven-deploy-plugin</artifactId>
+              <version>2.7</version>
+              <configuration>
+                <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+              </configuration>
+            </plugin>
+            <plugin>
+              <groupId>com.github.github</groupId>
+              <artifactId>site-maven-plugin</artifactId>
+              <version>0.10</version>
+              <configuration>
+                <message>Maven artifacts for ${project.version}</message>
+                <noJekyll>true</noJekyll>
+                <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
+                <branch>refs/heads/mvn-repo</branch>
+                <includes><include>**/*</include></includes>
+                <repositoryName>${project.artifactId}</repositoryName>
+                <repositoryOwner>Smapo</repositoryOwner>
+              </configuration>
+              <executions>
+                <execution>
+                  <goals>
+                    <goal>site</goal>
+                  </goals>
+                  <phase>deploy</phase>
+                </execution>
+              </executions>
             </plugin>
         </plugins>
     </build>
