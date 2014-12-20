@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>org.jsonschema2pojo</groupId>
-  <artifactId>jsonschema2pojo-gradle-plugin</artifactId>
+  <artifactId>jsonschema2pojo-maven-plugin</artifactId>
   <versioning>
+    <latest>0.4.1-Android-Parcelable-Support-SNAPSHOT</latest>
     <versions>
       <version>0.4.1-Android-Parcelable-Support-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20141220115108</lastUpdated>
+    <lastUpdated>20141220115130</lastUpdated>
   </versioning>
 </metadata>
