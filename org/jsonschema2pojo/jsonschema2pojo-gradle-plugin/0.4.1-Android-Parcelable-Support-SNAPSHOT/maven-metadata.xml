@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.jsonschema2pojo</groupId>
+  <artifactId>jsonschema2pojo-gradle-plugin</artifactId>
+  <version>0.4.1-Android-Parcelable-Support-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20141220.114415</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20141220114415</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.4.1-Android-Parcelable-Support-20141220.114415-1</value>
+        <updated>20141220114415</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.4.1-Android-Parcelable-Support-20141220.114415-1</value>
+        <updated>20141220114415</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>0.4.1-Android-Parcelable-Support-20141220.114415-1</value>
+        <updated>20141220114415</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
