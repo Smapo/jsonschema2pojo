@@ -5,26 +5,26 @@
   <version>0.4.8-Android-Parcelable-Support-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20141222.090820</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20141222.091327</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20141222090820</lastUpdated>
+    <lastUpdated>20141222091327</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.4.8-Android-Parcelable-Support-20141222.090820-1</value>
-        <updated>20141222090820</updated>
+        <value>0.4.8-Android-Parcelable-Support-20141222.091327-2</value>
+        <updated>20141222091327</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.4.8-Android-Parcelable-Support-20141222.090820-1</value>
-        <updated>20141222090820</updated>
+        <value>0.4.8-Android-Parcelable-Support-20141222.091327-2</value>
+        <updated>20141222091327</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>0.4.8-Android-Parcelable-Support-20141222.090820-1</value>
-        <updated>20141222090820</updated>
+        <value>0.4.8-Android-Parcelable-Support-20141222.091327-2</value>
+        <updated>20141222091327</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
