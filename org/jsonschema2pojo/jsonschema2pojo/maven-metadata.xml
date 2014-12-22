@@ -4,8 +4,8 @@
   <artifactId>jsonschema2pojo</artifactId>
   <versioning>
     <versions>
-      <version>0.4.1-Android-Parcelable-Support-SNAPSHOT</version>
+      <version>0.4.8-Android-Parcelable-Support-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20141222083753</lastUpdated>
+    <lastUpdated>20141222085552</lastUpdated>
   </versioning>
 </metadata>
