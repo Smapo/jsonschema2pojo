@@ -5,15 +5,15 @@
   <version>0.4.8-Android-Parcelable-Support-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20141222.090320</timestamp>
+      <timestamp>20141222.090405</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20141222090320</lastUpdated>
+    <lastUpdated>20141222090405</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.4.8-Android-Parcelable-Support-20141222.090320-1</value>
-        <updated>20141222090320</updated>
+        <value>0.4.8-Android-Parcelable-Support-20141222.090405-1</value>
+        <updated>20141222090405</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
