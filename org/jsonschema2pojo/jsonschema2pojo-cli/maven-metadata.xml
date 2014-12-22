@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>org.jsonschema2pojo</groupId>
-  <artifactId>jsonschema2pojo-ant</artifactId>
+  <artifactId>jsonschema2pojo-cli</artifactId>
   <versioning>
     <versions>
       <version>0.4.8-Android-Parcelable-Support-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20141222090552</lastUpdated>
+    <lastUpdated>20141222090628</lastUpdated>
   </versioning>
 </metadata>
