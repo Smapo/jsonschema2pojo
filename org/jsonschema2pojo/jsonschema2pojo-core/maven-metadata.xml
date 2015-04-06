@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jsonschema2pojo</groupId>
+  <artifactId>jsonschema2pojo-core</artifactId>
+  <versioning>
+    <versions>
+      <version>0.4.11-Android-Parcelable-Support-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150406103708</lastUpdated>
+  </versioning>
+</metadata>
