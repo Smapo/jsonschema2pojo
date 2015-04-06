@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>org.jsonschema2pojo</groupId>
-  <artifactId>jsonschema2pojo-core</artifactId>
+  <artifactId>jsonschema2pojo-ant</artifactId>
   <version>0.4.11-Android-Parcelable-Support-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20150406.103708</timestamp>
+      <timestamp>20150406.103725</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20150406103708</lastUpdated>
+    <lastUpdated>20150406103725</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.4.11-Android-Parcelable-Support-20150406.103708-1</value>
-        <updated>20150406103708</updated>
+        <value>0.4.11-Android-Parcelable-Support-20150406.103725-1</value>
+        <updated>20150406103725</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.4.11-Android-Parcelable-Support-20150406.103708-1</value>
-        <updated>20150406103708</updated>
+        <value>0.4.11-Android-Parcelable-Support-20150406.103725-1</value>
+        <updated>20150406103725</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
